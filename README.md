@@ -19,8 +19,9 @@
 ## Introduction
 
 Migration is a significant aspect of human history, influenced by various factors. This study aims to identify the key "push" factors driving international migration from Africa and the Middle East to Europe, focusing on economic, political, and socio-economic determinants. The scope excludes "pull" factors and intra-EU mobility, concentrating on migration to Germany, France, Italy, and Spain from 1995 to 2018.
-
 ---
+## Institution
+This project was part of a Data Science course at the University of Lausanne (UNIL), Master of Science in Finance program.
 
 ## Methodology
 
