@@ -38,6 +38,10 @@ This project was part of a Data Science course at the University of Lausanne (UN
 - **Sources**: World Bank, Our World in Data.
 - **Selection**: Based on relevance and completeness from literature review.
 
+[<img src="/path/to/figure3.png" width="400"/>](path/to/figure3.png)
+
+*Figure 3: Cumulative migrants per country 1995 - 2018*
+
 ---
 
 ## Model
@@ -73,14 +77,6 @@ $$\Delta \ln\left(\frac{\text{Migrants}}{\text{Population}}\right) = \gamma + \b
 $$ +\ \beta_4 \Delta \text{Inflation} + \beta_5 \Delta \text{Unemployment} + \beta_6 \Delta \text{Public Health Expenditure}$$
 
 $$ +\ \beta_7 \Delta \text{Political Regime} + \beta_8 \Delta \text{Electricity Access} + \beta_9 \Delta \text{Education Expenditure} + \Delta \epsilon$$
-
-[<img src="/path/to/figure3.png" width="400"/>](path/to/figure3.png)
-
-*Figure 3: Cumulative migrants per country 1995 - 2018*
-
-### Hypothesis Testing
-- **ADF Tests**: To ensure stationarity. The dependent variable (migrant) and some independent variables (child mortality and water access) were found to be non-stationary and were therefore transformed or discarded.
-- **VIF Tests**: To check for multicollinearity. The tests did not find strong evidence of multicollinearity in the dataset.
 
 ---
 
