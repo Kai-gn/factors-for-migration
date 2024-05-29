@@ -46,30 +46,6 @@ Migration is a significant aspect of human history, influenced by various factor
 
 ### Final Model
 
-``` math
-\Delta \ln\left(\frac{\text{Migrants}}{\text{Population}}\right) = \gamma + \beta_1 \Delta \text{Crop Index} + \beta_2 \Delta \text{Conflict Deaths} + \beta_3 \Delta \text{GDP per capita growth} + \beta_4 \Delta \text{Inflation} + \beta_5 \Delta \text{Unemployment} + \beta_6 \Delta \text{Public Health Expenditure} + \beta_7 \Delta \text{Political Regime} + \beta_8 \Delta \text{Electricity Access} + \beta_9 \Delta \text{Education Expenditure} + \Delta \epsilon
-```
-
-\begin{align*}
-\Delta \ln\left(\frac{\text{Migrants}}{\text{Population}}\right) = \gamma + & \beta_1 \Delta \text{Crop Index} + \beta_2 \Delta \text{Conflict Deaths} + \beta_3 \Delta \text{GDP per capita growth} + \\
-& \beta_4 \Delta \text{Inflation} + \beta_5 \Delta \text{Unemployment} + \beta_6 \Delta \text{Public Health Expenditure} + \beta_7 \Delta \text{Political Regime} + \\
-& \beta_8 \Delta \text{Electricity Access} + \beta_9 \Delta \text{Education Expenditure} + \Delta \epsilon
-\end{align*}
-
-$\Delta \ln\left(\frac{\text{Migrants}}{\text{Population}}\right) = \gamma + \beta_1 \Delta \text{Crop Index} + \beta_2 \Delta \text{Conflict Deaths} + \beta_3 \Delta \text{GDP per capita growth} + \beta_4 \Delta \text{Inflation} + \beta_5 \Delta \text{Unemployment} + \beta_6 \Delta \text{Public Health Expenditure} + \beta_7 \Delta \text{Political Regime} + \beta_8 \Delta \text{Electricity Access} + \beta_9 \Delta \text{Education Expenditure} + \Delta \epsilon$
-
-Δ ln(Migrants/Population) = γ + 
-β1 * Δ Crop Index + 
-β2 * Δ Conflict Deaths + 
-β3 * Δ GDP per capita growth + 
-β4 * Δ Inflation + 
-β5 * Δ Unemployment + 
-β6 * Δ Public Health Expenditure + 
-β7 * Δ Political Regime + 
-β8 * Δ Electricity Access + 
-β9 * Δ Education Expenditure + 
-Δ ε
-
 $$\Delta \ln\left(\frac{\text{Migrants}}{\text{Population}}\right) = \gamma + \beta_1 \Delta \text{Crop Index} + \beta_2 \Delta \text{Conflict Deaths} + \beta_3 \Delta \text{GDP per capita growth} + \beta_4 \Delta \text{Inflation} + \beta_5 \Delta \text{Unemployment}$$
 
 $$ +\ \beta_6 \Delta \text{Public Health Expenditure} + \beta_7 \Delta \text{Political Regime} + \beta_8 \Delta \text{Electricity Access} + \beta_9 \Delta \text{Education Expenditure} + \Delta \epsilon$$
