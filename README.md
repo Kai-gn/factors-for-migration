@@ -42,9 +42,29 @@ This project was part of a Data Science course at the University of Lausanne (UN
 
 ## Model
 
-### Approach
-- **Regression Model**: Feasible Generalized Least Squares (FGLS) to address heteroskedasticity, serial correlation, and measurement errors.
-- **Transformations**: Dependent variable transformed to logarithm of migration rate for normality.
+### Overview
+This section outlines the construction of our model and the hypotheses necessary for our analysis. The process involved an in-depth examination of our variables, necessary transformations for regression requirements, and efficiency enhancements through better parametrization.
+
+### Steps and Methodology
+1. **Stationarity Testing**:
+   - Conducted Augmented Dickey-Fuller (ADF) tests on all variables to ensure stationarity, a prerequisite for our analysis.
+   - Identified non-stationarity in the dependent variable (migrant) and two independent variables (child mortality and water access). To address this, we excluded the latter two from our analysis and transformed the migrant variable into a stationary process by normalizing it with the total population.
+
+2. **Normalization and Transformation**:
+   - The normalized migrant ratio did not initially meet the normality criteria. We applied successive Boxcox transformations to achieve normal distribution, but ultimately used the natural logarithm of the ratio to resolve the issue while maintaining interpretability.
+
+3. **Addressing Model Inefficiencies**:
+   - Initial regressions indicated the presence of heteroskedasticity, serial correlation intra-countries, and measurement errors.
+   - Adopted the Feasible Generalized Least Squares (FGLS) model using the R function `pggls` to address these issues, offering a better fit over the standard OLS due to less restrictive assumptions.
+
+4. **First Difference Regression**:
+   - Implemented a First Difference FGLS regression, focusing on changes in the dependent and independent variables over time (∆(y) on ∆(x)).
+   - This approach required the assumption that the error term differences are uncorrelated with the independent variable differences, allowing the model to remain unbiased and consistent.
+   - Chose this model over a Fixed Effects model to avoid the strict exogeneity requirement and potential omitted variable bias (OVB) from time-invariant factors.
+
+### Benefits
+- The First Difference method isolates the effects of time, allowing us to measure the impact of variables independently of time-related factors.
+- Provides a robust framework for analyzing the dynamics of migration while accounting for country-specific variations and temporal dynamics.
 
 ### Final Model
 
