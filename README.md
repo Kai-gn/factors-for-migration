@@ -1,21 +1,6 @@
 ## Title
 **Which Factors Best Explain International Migration from Africa and the Middle East?**
 
-## Authors
-- Sami Frogg
-- Giuseppe Lorenzo
-- Nathan Martin
-- Marco Oliosi
-- Mirco Orsino
-- Benjamin Romeu
-- Louis Vermeil
-
-## Supervisor
-Professor Ziwei Zhao
-
-## Date
-December 7, 2020
-
 ---
 
 ## Table of Contents
