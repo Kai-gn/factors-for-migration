@@ -48,11 +48,11 @@ This project was part of a Data Science course at the University of Lausanne (UN
 
 ### Final Model
 
-$$\Delta \ln\left(\frac{\text{Migrants}}{\text{Population}}\right) = \gamma + \beta_1 \Delta \text{Crop Index} + \beta_2 \Delta \text{Conflict Deaths} + \beta_3 \Delta \text{GDP per capita growth}$$
+$\Delta \ln\left(\frac{\text{Migrants}}{\text{Population}}\right) = \gamma + \beta_1 \Delta \text{Crop Index} + \beta_2 \Delta \text{Conflict Deaths} + \beta_3 \Delta \text{GDP per capita growth}$
 
-$$ +\ \beta_4 \Delta \text{Inflation} + \beta_5 \Delta \text{Unemployment} + \beta_6 \Delta \text{Public Health Expenditure}$$
+$ +\ \beta_4 \Delta \text{Inflation} + \beta_5 \Delta \text{Unemployment} + \beta_6 \Delta \text{Public Health Expenditure}$
 
-$$ +\ \beta_7 \Delta \text{Political Regime} + \beta_8 \Delta \text{Electricity Access} + \beta_9 \Delta \text{Education Expenditure} + \Delta \epsilon$$
+$ +\ \beta_7 \Delta \text{Political Regime} + \beta_8 \Delta \text{Electricity Access} + \beta_9 \Delta \text{Education Expenditure} + \Delta \epsilon$
 
 ### Hypothesis Testing
 - **ADF Tests**: To ensure stationarity.
