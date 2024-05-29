@@ -33,6 +33,10 @@ This project was part of a Data Science course at the University of Lausanne (UN
 - **Regions**: Sub-Saharan Africa, Horn of Africa, and Middle East.
 - **Threshold**: Countries with over 50,000 migrants during the study period.
 
+[<img src="/path/to/figure2.png" width="400"/>](path/to/figure2.png)
+
+*Figure 2: Number of migrants per country sorted by region*
+
 ### Variables
 - **Categories**: Economic, agriculture, healthcare, basic necessity, demographic, politics, and conflicts.
 - **Sources**: World Bank, Our World in Data.
