@@ -1,4 +1,4 @@
-## Which Factors Best Explain International Migration from Africa and the Middle East?**
+## Which Factors Best Explain International Migration from Africa and the Middle East?
 
 ---
 
