@@ -36,7 +36,7 @@ This project was part of a Data Science course at the University of Lausanne (UN
 - **Sources**: World Bank, Our World in Data.
 - **Selection**: Based on relevance and completeness from literature review.
 
-[<img src="/img/to/figure3.png" width="400"/>](path/to/figure3.png)
+[<img src="/img/to/cumulative_mig_per_country.png" width="400"/>](cumulative_mig_per_country.png)
 
 *Cumulative migrants per country 1995 - 2018*
 
