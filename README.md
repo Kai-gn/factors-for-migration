@@ -12,7 +12,6 @@
     - [Discussion](#discussion)
 5. [Conclusion](#conclusion)
 6. [References](#references)
-7. [Appendix](#appendix)
 
 ---
 
