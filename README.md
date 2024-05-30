@@ -84,19 +84,19 @@ $$ +\ \beta_7 \Delta \text{Political Regime} + \beta_8 \Delta \text{Electricity 
 
 The FGLS regression model yielded an R-squared value of 0.96, indicating a high level of explanatory power, although this may be partially due to overfitting or other model biases. The results demonstrated significant correlations for several variables at the 99% and 99.9% significance levels, except for the crop index and electricity access, which were not statistically significant.
 
-[<img src="/path/to/figure4.png" width="400"/>](path/to/figure4.png)
+[<img src="/imgs/Diagnostic_plot_fitted_vs_actual.png" width="400"/>](Diagnostic_plot_fitted_vs_actual.png)
 
 *Diagnostic plot of fitted VS actual values for Migrants/TotalPopulation*
 
-[<img src="/path/to/figure5.png" width="400"/>](path/to/figure5.png)
+[<img src="/imgs/Diagnostic_plot_fitted_vs_actual_log.png" width="400"/>](Diagnostic_plot_fitted_vs_actual_log.png)
 
 *Diagnostic plot of fitted VS actual values for log(Migrants/TotalPopulation)*
 
-[<img src="/path/to/figure6.png" width="400"/>](path/to/figure6.png)
+[<img src="/imgs/residuals.png" width="400"/>](residuals.png)
 
 *Diagnostic plot of residuals VS fitted values*
 
-[<img src="/path/to/figure_regression.png" width="400"/>](path/to/figure_regression.png)
+[<img src="/imgs/reg_01.png" width="400"/>](reg_01.png)
 
 *Regression Results Plot*
 
