@@ -162,7 +162,6 @@ A comprehensive list of academic references supporting the study's findings and 
 - Péridy, N. (2005). Welfare Magnets, Border Effects or Policy Regulations: What Determinants Drive Migration Flows into the EU? Retrieved from https://www.nottingham.ac.uk/gep/documents/seminars/2006/nicolasperidy.Pdf
 - Schmeidl, S. (1997). Exploring the Causes of Forced Migration: A Pooled Time-Series Analysis, 1971-1990. Social Science Quarterly.
 - Sjaastad, L. (1962). The Costs and Returns of Human Migration. Journal of Political Economy, 80-93.
-- Solano, G.,
 
 
 
